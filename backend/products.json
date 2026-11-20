@@ -1,0 +1,857 @@
+[
+  {
+    "id": "p1",
+    "name": "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    "image": "../images/products/athletic-cotton-socks-6-pairs.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 87
+    },
+    "priceCents": 1090,
+    "variations": []
+  },
+  {
+    "id": "p2",
+    "name": "Intermediate Size Basketball",
+    "image": "../images/products/intermediate-composite-basketball.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 127
+    },
+    "priceCents": 2095,
+    "variations": []
+  },
+  {
+    "id": "p3",
+    "name": "Adults Plain Cotton T-Shirt - 2 Pack",
+    "image": "../images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 56
+    },
+    "priceCents": 799,
+    "variations": [
+      {
+        "id": "p3-v1",
+        "options": {
+          "color": "teal",
+          "size": "standard"
+        },
+        "image": "../images/products/variations/adults-plain-cotton-tshirt-2-pack-teal.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p3-v2",
+        "options": {
+          "color": "black",
+          "size": "standard"
+        },
+        "image": "../images/products/variations/adults-plain-cotton-tshirt-2-pack-black.jpg",
+        "priceCents": null,
+        "isDefault": false
+      },
+      {
+        "id": "p3-v3",
+        "options": {
+          "color": "red",
+          "size": "standard"
+        },
+        "image": "../images/products/variations/adults-plain-cotton-tshirt-2-pack-red.jpg",
+        "priceCents": null,
+        "isDefault": false
+      },
+      {
+        "id": "p3-v4",
+        "options": {
+          "color": "black",
+          "size": "plus"
+        },
+        "image": "../images/products/variations/adults-plain-cotton-tshirt-2-pack-plus-black.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p4",
+    "name": "2 Slot Toaster - Black",
+    "image": "../images/products/black-2-slot-toaster.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 2197
+    },
+    "priceCents": 1899,
+    "variations": []
+  },
+  {
+    "id": "p5",
+    "name": "6 Piece White Dinner Plate Set",
+    "image": "../images/products/6-piece-white-dinner-plate-set.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 37
+    },
+    "priceCents": 2067,
+    "variations": []
+  },
+  {
+    "id": "p6",
+    "name": "6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set",
+    "image": "../images/products/6-piece-non-stick-baking-set.webp",
+    "rating": {
+      "stars": 4.5,
+      "count": 175
+    },
+    "priceCents": 3499,
+    "variations": []
+  },
+  {
+    "id": "p7",
+    "name": "Plain Hooded Fleece Sweatshirt",
+    "image": "../images/products/plain-hooded-fleece-sweatshirt-yellow.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 317
+    },
+    "priceCents": 2400,
+    "variations": [
+      {
+        "id": "p7-v1",
+        "options": {
+          "color": "yellow"
+        },
+        "image": "../images/products/variations/plain-hooded-fleece-sweatshirt-yellow.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p7-v2",
+        "options": {
+          "color": "teal"
+        },
+        "image": "../images/products/variations/plain-hooded-fleece-sweatshirt-teal.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p8",
+    "name": "Luxury Towel Set - Graphite Gray",
+    "image": "../images/products/luxury-tower-set-6-piece.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 144
+    },
+    "priceCents": 3599,
+    "variations": [
+      {
+        "id": "p8-v1",
+        "options": {
+          "size": "6-piece"
+        },
+        "image": "../images/products/variations/luxury-tower-set-6-piece.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p8-v2",
+        "options": {
+          "size": "4-piece"
+        },
+        "image": "../images/products/variations/luxury-tower-set-4-piece.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p9",
+    "name": "Liquid Laundry Detergent, 110 Loads, 82.5 Fl Oz",
+    "image": "../images/products/liquid-laundry-detergent-plain.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 305
+    },
+    "priceCents": 2899,
+    "variations": [
+      {
+        "id": "p9-v1",
+        "options": {
+          "scent": "plain"
+        },
+        "image": "../images/products/variations/liquid-laundry-detergent-plain.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p9-v2",
+        "options": {
+          "scent": "lavender"
+        },
+        "image": "../images/products/variations/liquid-laundry-detergent-lavender.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p10",
+    "name": "Waterproof Knit Athletic Sneakers - Gray",
+    "image": "../images/products/knit-athletic-sneakers-gray.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 89
+    },
+    "priceCents": 3390,
+    "variations": []
+  },
+  {
+    "id": "p11",
+    "name": "Women's Chiffon Beachwear Cover Up - Black",
+    "image": "../images/products/women-chiffon-beachwear-coverup-black.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 235
+    },
+    "priceCents": 2070,
+    "variations": []
+  },
+  {
+    "id": "p12",
+    "name": "Round Sunglasses",
+    "image": "../images/products/round-sunglasses-black.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 30
+    },
+    "priceCents": 1560,
+    "variations": [
+      {
+        "id": "p12-v1",
+        "options": {
+          "color": "black"
+        },
+        "image": "../images/products/variations/round-sunglasses-black.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p12-v2",
+        "options": {
+          "color": "gold"
+        },
+        "image": "../images/products/variations/round-sunglasses-gold.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p13",
+    "name": "Women's Two Strap Buckle Sandals - Tan",
+    "image": "../images/products/women-beach-sandals.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 562
+    },
+    "priceCents": 2499,
+    "variations": []
+  },
+  {
+    "id": "p14",
+    "name": "Blackout Curtains Set 4-Pack - Beige",
+    "image": "../images/products/blackout-curtain-set-beige.webp",
+    "rating": {
+      "stars": 4.5,
+      "count": 232
+    },
+    "priceCents": 4599,
+    "variations": []
+  },
+  {
+    "id": "p15",
+    "name": "Men's Slim-Fit Summer Shorts",
+    "image": "../images/products/men-slim-fit-summer-shorts-gray.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 160
+    },
+    "priceCents": 1699,
+    "variations": [
+      {
+        "id": "p15-v1",
+        "options": {
+          "color": "gray"
+        },
+        "image": "../images/products/variations/men-slim-fit-summer-shorts-gray.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p15-v2",
+        "options": {
+          "color": "beige"
+        },
+        "image": "../images/products/variations/men-slim-fit-summer-shorts-beige.jpg",
+        "priceCents": null,
+        "isDefault": false
+      },
+      {
+        "id": "p15-v3",
+        "options": {
+          "color": "black"
+        },
+        "image": "../images/products/variations/men-slim-fit-summer-shorts-black.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p16",
+    "name": "Electric Glass and Steel Hot Tea Water Kettle - 1.7-Liter",
+    "image": "../images/products/electric-glass-and-steel-hot-water-kettle.webp",
+    "rating": {
+      "stars": 4.5,
+      "count": 846
+    },
+    "priceCents": 3074,
+    "variations": []
+  },
+  {
+    "id": "p17",
+    "name": "Ultra Soft Tissue 2-Ply - 18 Box",
+    "image": "../images/products/facial-tissue-2-ply-18-boxes.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 99
+    },
+    "priceCents": 2374,
+    "variations": []
+  },
+  {
+    "id": "p18",
+    "name": "Straw Lifeguard Sun Hat",
+    "image": "../images/products/straw-sunhat.webp",
+    "rating": {
+      "stars": 4.5,
+      "count": 215
+    },
+    "priceCents": 2200,
+    "variations": []
+  },
+  {
+    "id": "p19",
+    "name": "Sterling Silver Sky Flower Stud Earrings",
+    "image": "../images/products/sky-flower-stud-earrings.webp",
+    "rating": {
+      "stars": 4.5,
+      "count": 52
+    },
+    "priceCents": 1799,
+    "variations": []
+  },
+  {
+    "id": "p20",
+    "name": "Women's Stretch Popover Hoodie",
+    "image": "../images/products/women-stretch-popover-hoodie-black.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 2465
+    },
+    "priceCents": 1374,
+    "variations": [
+      {
+        "id": "p20-v1",
+        "options": {
+          "color": "black"
+        },
+        "image": "../images/products/variations/women-stretch-popover-hoodie-black.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p20-v2",
+        "options": {
+          "color": "blue"
+        },
+        "image": "../images/products/variations/women-stretch-popover-hoodie-blue.jpg",
+        "priceCents": null,
+        "isDefault": false
+      },
+      {
+        "id": "p20-v3",
+        "options": {
+          "color": "gray"
+        },
+        "image": "../images/products/variations/women-stretch-popover-hoodie-gray.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p21",
+    "name": "Bathroom Bath Rug Mat 20 x 31 Inch - Grey",
+    "image": "../images/products/bathroom-rug.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 119
+    },
+    "priceCents": 1250,
+    "variations": []
+  },
+  {
+    "id": "p22",
+    "name": "Women's Knit Ballet Flat",
+    "image": "../images/products/women-knit-ballet-flat-black.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 326
+    },
+    "priceCents": 2640,
+    "variations": [
+      {
+        "id": "p22-v1",
+        "options": {
+          "color": "black"
+        },
+        "image": "../images/products/variations/women-knit-ballet-flat-black.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p22-v2",
+        "options": {
+          "color": "gray"
+        },
+        "image": "../images/products/variations/women-knit-ballet-flat-gray.jpg",
+        "priceCents": null,
+        "isDefault": false
+      },
+      {
+        "id": "p22-v3",
+        "options": {
+          "color": "leopard"
+        },
+        "image": "../images/products/variations/women-knit-ballet-flat-leopard.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p23",
+    "name": "Men's Regular-Fit Quick-Dry Golf Polo Shirt",
+    "image": "../images/products/men-golf-polo-t-shirt-blue.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 2556
+    },
+    "priceCents": 1599,
+    "variations": [
+      {
+        "id": "p23-v1",
+        "options": {
+          "color": "blue"
+        },
+        "image": "../images/products/variations/men-golf-polo-t-shirt-blue.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p23-v2",
+        "options": {
+          "color": "black"
+        },
+        "image": "../images/products/variations/men-golf-polo-t-shirt-black.jpg",
+        "priceCents": null,
+        "isDefault": false
+      },
+      {
+        "id": "p23-v3",
+        "options": {
+          "color": "red"
+        },
+        "image": "../images/products/variations/men-golf-polo-t-shirt-red.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p24",
+    "name": "Trash Can with Foot Pedal - Brushed Stainless Steel",
+    "image": "../images/products/trash-can-with-foot-pedal-50-liter.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 2286
+    },
+    "priceCents": 8300,
+    "variations": [
+      {
+        "id": "p24-v1",
+        "options": {
+          "size": "50-liter"
+        },
+        "image": "../images/products/variations/trash-can-with-foot-pedal-50-liter.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p24-v2",
+        "options": {
+          "size": "30-liter-tall"
+        },
+        "image": "../images/products/variations/trash-can-with-foot-pedal-30-liter-tall.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p25",
+    "name": "Duvet Cover Set with Zipper Closure",
+    "image": "../images/products/duvet-cover-set-blue-twin.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 456
+    },
+    "priceCents": 2399,
+    "variations": [
+      {
+        "id": "p25-v1",
+        "options": {
+          "color": "blue",
+          "size": "twin"
+        },
+        "image": "../images/products/variations/duvet-cover-set-blue-twin.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p25-v2",
+        "options": {
+          "color": "blue",
+          "size": "queen"
+        },
+        "image": "../images/products/variations/duvet-cover-set-blue-queen.jpg",
+        "priceCents": null,
+        "isDefault": false
+      },
+      {
+        "id": "p25-v3",
+        "options": {
+          "color": "red",
+          "size": "twin"
+        },
+        "image": "../images/products/variations/duvet-cover-set-red-twin.jpg",
+        "priceCents": null,
+        "isDefault": false
+      },
+      {
+        "id": "p25-v4",
+        "options": {
+          "color": "red",
+          "size": "queen"
+        },
+        "image": "../images/products/variations/duvet-cover-set-red-queen.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p26",
+    "name": "Women's Chunky Cable Beanie - Gray",
+    "image": "../images/products/women-chunky-beanie-gray.webp",
+    "rating": {
+      "stars": 4.5,
+      "count": 83
+    },
+    "priceCents": 1250,
+    "variations": []
+  },
+  {
+    "id": "p27",
+    "name": "Men's Classic-fit Pleated Chino Pants",
+    "image": "../images/products/men-chino-pants-beige.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 9017
+    },
+    "priceCents": 2290,
+    "variations": [
+      {
+        "id": "p27-v1",
+        "options": {
+          "color": "beige"
+        },
+        "image": "../images/products/variations/men-chino-pants-beige.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p27-v2",
+        "options": {
+          "color": "black"
+        },
+        "image": "../images/products/variations/men-chino-pants-black.jpg",
+        "priceCents": null,
+        "isDefault": false
+      },
+      {
+        "id": "p27-v3",
+        "options": {
+          "color": "green"
+        },
+        "image": "../images/products/variations/men-chino-pants-green.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p28",
+    "name": "Men's Athletic Sneaker",
+    "image": "../images/products/men-athletic-shoes-green.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 229
+    },
+    "priceCents": 3890,
+    "variations": [
+      {
+        "id": "p28-v1",
+        "options": {
+          "color": "green"
+        },
+        "image": "../images/products/variations/men-athletic-shoes-green.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p28-v2",
+        "options": {
+          "color": "black"
+        },
+        "image": "../images/products/variations/men-athletic-shoes-black.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p29",
+    "name": "Men's Navigator Sunglasses Pilot",
+    "image": "../images/products/men-navigator-sunglasses-brown.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 42
+    },
+    "priceCents": 1690,
+    "variations": [
+      {
+        "id": "p29-v1",
+        "options": {
+          "color": "brown"
+        },
+        "image": "../images/products/variations/men-navigator-sunglasses-brown.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p29-v2",
+        "options": {
+          "color": "silver"
+        },
+        "image": "../images/products/variations/men-navigator-sunglasses-silver.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p30",
+    "name": "Non-Stick Cookware Set, Pots, Pans and Utensils - 15 Pieces",
+    "image": "../images/products/non-stick-cooking-set-15-pieces.webp",
+    "rating": {
+      "stars": 4.5,
+      "count": 511
+    },
+    "priceCents": 6797,
+    "variations": []
+  },
+  {
+    "id": "p31",
+    "name": "Vanity Mirror with Heavy Base - Chrome",
+    "image": "../images/products/vanity-mirror-silver.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 130
+    },
+    "priceCents": 1649,
+    "variations": []
+  },
+  {
+    "id": "p32",
+    "name": "Women's Fleece Jogger Sweatpant",
+    "image": "../images/products/women-french-terry-fleece-jogger-camo.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 248
+    },
+    "priceCents": 2400,
+    "variations": [
+      {
+        "id": "p32-v1",
+        "options": {
+          "color": "camo"
+        },
+        "image": "../images/products/variations/women-french-terry-fleece-jogger-camo.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p32-v2",
+        "options": {
+          "color": "gray"
+        },
+        "image": "../images/products/variations/women-french-terry-fleece-jogger-gray.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "p33",
+    "name": "Double Oval Twist French Wire Earrings - Gold",
+    "image": "../images/products/double-elongated-twist-french-wire-earrings.webp",
+    "rating": {
+      "stars": 4.5,
+      "count": 117
+    },
+    "priceCents": 2400,
+    "variations": []
+  },
+  {
+    "id": "p34",
+    "name": "Round Airtight Food Storage Containers - 5 Piece",
+    "image": "../images/products/round-airtight-food-storage-containers.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 126
+    },
+    "priceCents": 2899,
+    "variations": []
+  },
+  {
+    "id": "p35",
+    "name": "Coffeemaker with Glass Carafe and Reusable Filter - 25 Oz, Black",
+    "image": "../images/products/coffeemaker-with-glass-carafe-black.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 1211
+    },
+    "priceCents": 2250,
+    "variations": []
+  },
+  {
+    "id": "p36",
+    "name": "Blackout Curtains Set 42 x 84-Inch - Black, 2 Panels",
+    "image": "../images/products/blackout-curtains-black.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 363
+    },
+    "priceCents": 3099,
+    "variations": []
+  },
+  {
+    "id": "p37",
+    "name": "100% Cotton Bath Towels - 2 Pack, Light Teal",
+    "image": "../images/products/cotton-bath-towels-teal.webp",
+    "rating": {
+      "stars": 4.5,
+      "count": 93
+    },
+    "priceCents": 2110,
+    "variations": []
+  },
+  {
+    "id": "p38",
+    "name": "Waterproof Knit Athletic Sneakers - Pink",
+    "image": "../images/products/knit-athletic-sneakers-pink.webp",
+    "rating": {
+      "stars": 4.5,
+      "count": 89
+    },
+    "priceCents": 3390,
+    "variations": []
+  },
+  {
+    "id": "p39",
+    "name": "Countertop Blender - 64oz, 1400 Watts",
+    "image": "../images/products/countertop-blender-64-oz.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 3
+    },
+    "priceCents": 10747,
+    "variations": []
+  },
+  {
+    "id": "p40",
+    "name": "10-Piece Mixing Bowl Set with Lids - Floral",
+    "image": "../images/products/floral-mixing-bowl-set.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 679
+    },
+    "priceCents": 3899,
+    "variations": []
+  },
+  {
+    "id": "p41",
+    "name": "2-Ply Kitchen Paper Towels - 30 Pack",
+    "image": "../images/products/kitchen-paper-towels-30-pack.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 1045
+    },
+    "priceCents": 5799,
+    "variations": []
+  },
+  {
+    "id": "p42",
+    "name": "Men's Full-Zip Hooded Fleece Sweatshirt",
+    "image": "../images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 3157
+    },
+    "priceCents": 2400,
+    "variations": [
+      {
+        "id": "p42-v1",
+        "options": {
+          "color": "red"
+        },
+        "image": "../images/products/variations/men-cozy-fleece-zip-up-hoodie-red.jpg",
+        "priceCents": null,
+        "isDefault": true
+      },
+      {
+        "id": "p42-v2",
+        "options": {
+          "color": "black"
+        },
+        "image": "../images/products/variations/men-cozy-fleece-zip-up-hoodie-black.jpg",
+        "priceCents": null,
+        "isDefault": false
+      }
+    ]
+  }
+]

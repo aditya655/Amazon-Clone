@@ -1,0 +1,143 @@
+.main {
+  max-width:1100px; 
+  margin:0 auto; 
+  padding:0 30px 60px;
+}
+.page-title {
+  font-size:22px;
+  margin:30px 0 18px;
+}
+
+.review-order {
+  display:grid;
+  grid-template-columns:1fr 350px;
+  gap:12px;
+  align-items:start;
+}
+
+.delivery, .order-summary{
+  border:1px solid #ddd;
+  border-radius:4px;
+  padding:18px;
+}
+.delivery{margin-bottom:12px;}
+
+.delivery-date {
+  color: rgb(0,118,0);
+  font-weight:700;
+  font-size:19px;
+  margin-bottom:18px;
+}
+.delivery-body{
+  display:grid; 
+  grid-template-columns:1fr 1fr;
+  gap:25px;
+}
+
+.item{
+  display:flex;
+  gap:25px;
+}
+.item .image{
+  width:100px;
+  height:100px;
+  object-fit:contain;
+}
+.name{
+  font-weight:700;
+  margin-bottom:8px;
+}
+.price{
+  color: rgb(177,39,4);
+  font-weight:700;
+  margin-bottom:5px;
+}
+
+.link{
+  color:rgb(1,124,182);
+  cursor:pointer;
+  margin-left:4px;
+}
+/* Update / Save / Delete are real <button>s: strip the button look so they read as links */
+button.link{
+  background:none;
+  border:none;
+  padding:0;
+  font:inherit;
+}
+.link:hover{color:rgb(196,80,0);}
+
+/* Update/Save toggle */
+
+.quantity-input{width:50px;}
+.quantity-input, .save-link{display:none;}
+.delivery.is-editing .quantity-input, .delivery.is-editing .save-link{display:inline;}
+.delivery.is-editing .quantity-label, .delivery.is-editing .update-link{display:none;}
+
+.options-title{
+  font-weight:700;
+  margin-bottom:10px;
+}
+.option{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:12px;
+  cursor:pointer;
+}
+.delivery-radio{
+  width:20px;
+  height:20px;
+  margin:0;
+}
+.option-date{
+  color:rgb(0,118,0);
+  font-weight:500;
+}
+.option-price{
+  color:rgb(120,120,120);
+  font-size:15px;
+}
+
+.summary-title{
+  font-weight:700;
+  font-size:18px;
+  margin-bottom:12px;
+}
+.summary-row{
+  display:flex;
+  justify-content:space-between;
+  font-size:15px;
+  margin-bottom:9px;
+}
+.subtotal-line{
+  border-bottom:1px solid #ddd;
+  padding-bottom:9px;
+}
+.total-row{
+  color:rgb(177,39,4);
+  font-weight: 700;
+  font-size:18px;
+  border-top:1px solid #ddd;
+  padding-top:18px;
+}
+
+.order-button{
+  width:100%;
+  padding:12px;
+  margin-top:11px;
+  background:rgb(255,216,20);
+  border:1px solid rgb(252,210,0);
+  border-radius:8px;
+  cursor:pointer;
+  font-size:15px;
+}
+.order-button:disabled{
+  opacity:0.5;
+  cursor:not-allowed;
+}
+
+@media (max-width:800px){
+  .review-order,.delivery-body{grid-template-columns:1fr;}
+  .order-summary{order:-1;}
+}

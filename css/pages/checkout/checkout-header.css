@@ -1,0 +1,35 @@
+.checkout-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height:60px;
+  padding: 0 60px;
+}
+
+.amazon-dark-logo, .lock{
+  width:150px;
+}
+
+.header-link{
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.amazon-logo{
+ height:30px;
+ margin-top:5px;
+}
+
+.checkout{
+  font-size:25px;
+  font-weight:500;
+}
+
+.lock{
+  display:flex;
+  justify-content:flex-end;
+}
+
+.lock-icon{
+  height:22px;
+}

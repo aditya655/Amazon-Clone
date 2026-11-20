@@ -1,0 +1,92 @@
+/* Whole page container: one column, centered */
+.tracking{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.back-to-orders-link{
+  color: rgb(1, 124, 182);
+  font-size: 18px;
+  align-self: flex-start;
+}
+
+.back-to-orders-link:hover{
+  color: rgb(196, 80, 0);
+}
+
+/* Product info */
+.item{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.delivery-date{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.product-name,
+.quantity{
+  font-size: 18px;
+}
+
+.image img{
+  width: 200px;
+  object-fit: contain;
+}
+
+/* Stage labels */
+.labels{
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.label.current{
+  color: rgb(6, 125, 98);
+}
+
+/* Progress bar */
+.progress-bar-container{
+  height: 35px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 50px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.progress-bar{
+  height: 100%;
+  background-color: green;
+  border-radius: 50px;
+}
+
+/* Phones */
+@media (max-width: 575px){
+  .tracking{
+    padding: 20px 16px;
+  }
+
+  .delivery-date{
+    font-size: 24px;
+  }
+
+  .labels{
+    font-size: 16px;
+  }
+}
